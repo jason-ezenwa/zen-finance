@@ -40,4 +40,4 @@ cd zen-api      # For backend
 
 cd zen-ui       # For frontend
 
-To update a submodule, cd into it, then run ```git pull origin main```, cd out of it and then commit (and push) the changes to this umbrella repo.
+To update a submodule (that has been changed in its independent repo), cd into it, then run ```git pull origin main```, cd out of it and then commit (and push) the changes to this umbrella repo.
