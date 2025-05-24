@@ -1,0 +1,6 @@
+[submodule "zen-api"]
+	path = zen-api
+	url = https://github.com/jason-ezenwa/zen-api.git
+[submodule "zen-ui"]
+	path = zen-ui
+	url = https://github.com/jason-ezenwa/zen-ui.git
