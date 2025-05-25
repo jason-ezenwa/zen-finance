@@ -1,6 +1,6 @@
 # Zen Finance 🧘🏽‍♂️💰
 
-**Zen Finance** is an umbrella repository for a modern fintech application. It brings together both the backend (`zen-api`) and frontend (`zen-ui`) into a single project structure for easier collaboration and deployment.
+**Zen Finance** is an umbrella repository for a modern fintech application. It brings together both the backend (`zen-api`) and frontend (`zen-ui`) into a single project structure for easier management.
 
 ---
 
@@ -9,7 +9,7 @@
 This repository contains the following components as Git submodules:
 
 - [`zen-api`](https://github.com/jason-ezenwa/zen-api) — The backend API for Zen Finance.
-- [`zen-ui`](https://github.com/yourusername/zen-ui) — The frontend user interface for Zen Finance.
+- [`zen-ui`](https://github.com/jason-ezenwa/zen-ui) — The frontend user interface for Zen Finance.
 
 Each submodule is maintained independently, and you can work with them directly inside this umbrella repository.
 
