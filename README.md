@@ -41,3 +41,12 @@ cd zen-api      # For backend
 cd zen-ui       # For frontend
 
 To update a submodule (that has been changed in its independent repo), cd into it, then run ```git pull origin main```, cd out of it and then commit (and push) the changes to this umbrella repo.
+
+---
+
+## 📄 License
+
+This is an umbrella repository containing two main components, each licensed under the GNU General Public License v3.0:
+
+- **zen-api**: See [zen-api/LICENSE.md](zen-api/LICENSE.md)
+- **zen-ui**: See [zen-ui/LICENSE.md](zen-ui/LICENSE.md)
