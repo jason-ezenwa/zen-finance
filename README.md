@@ -4,7 +4,7 @@
 
 ---
 
-## 🧩 Submodules
+## Submodules
 
 This repository contains the following components as Git submodules:
 
@@ -15,16 +15,18 @@ Each submodule is maintained independently, and you can work with them directly 
 
 ---
 
-## 🔧 Features
+## Features
 
-- Authentication
-- Multi-currency Wallets
-- Currency Exchange
-- Virtual Cards
+- Authentication & Authorization - JWT-based secure user authentication
+- Multi-Currency Wallets - Support for USD, NGN, GHS, and KES currencies
+- Currency Exchange - Real-time FX quotes with Redis caching
+- Virtual Cards - VISA virtual card creation and management
+- Payment Processing - Paystack integration for deposits and payments
+- Webhook Handling - Secure webhook processing for external services
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ### 1. Clone this umbrella repository with submodules:
 
@@ -36,15 +38,15 @@ If you've already cloned without --recurse-submodules, run:
 git submodule update --init --recursive
 
 ### 2. Navigate into the submodules
-cd zen-api      # For backend
+```cd zen-api      # For backend```
 
-cd zen-ui       # For frontend
+```cd zen-ui       # For frontend```
 
 To update a submodule (that has been changed in its independent repo), cd into it, then run ```git pull origin main```, cd out of it and then commit (and push) the changes to this umbrella repo.
 
 ---
 
-## 📄 License
+## License
 
 This is an umbrella repository containing two main components, each licensed under the GNU General Public License v3.0:
 
